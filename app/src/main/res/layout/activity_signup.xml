@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome"
+            android:text="@string/welcome"
             android:textColor="#fff"
             android:textSize="40sp"
             android:layout_marginTop="-20dp"
@@ -31,7 +31,7 @@
                 android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Email"
+                android:hint="@string/email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true"
@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusableInTouchMode="true"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:imeActionId="@+id/login"
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="#fff"
-            android:text="Register"
+            android:text="@string/register"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
         <Button
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
             android:background="@null"
-            android:text="Forgoten Password"
+            android:text="@string/forgoten_password"
             android:textAllCaps="false"
             android:textColor="@android:color/black" />
 
@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
             android:background="@null"
-            android:text="Already registered. Log me In!"
+            android:text="@string/am_in"
             android:textAllCaps="false"
             android:textColor="#fff"
             android:textSize="15dp" />

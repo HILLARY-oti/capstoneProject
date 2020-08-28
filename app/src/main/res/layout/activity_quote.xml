@@ -30,7 +30,7 @@
             app:layout_constraintLeft_toLeftOf="parent">
 
             <TextView
-                android:text="Stars shine"
+                android:text="@string/stars_shine"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textAlignment="center"
@@ -62,7 +62,7 @@
             tools:layout_editor_absoluteX="0dp" />
 
         <Button
-            android:text="Inspire Me"
+            android:text="@string/inspire_me"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/quoteBtn"
